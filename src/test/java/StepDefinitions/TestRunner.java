@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/Features",
+@CucumberOptions(features = "src/test/resources/Features/GoogleSearch.feature",
         glue = {"StepDefinitions"},
         monochrome = true,
         plugin = {"pretty", "html:target/HtmlReports/report.html",
