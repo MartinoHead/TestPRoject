@@ -50,7 +50,6 @@ public class GoogleSearchSteps {
         webDriver.findElement(By.name("q")).sendKeys(Keys.ENTER);
         Thread.sleep(2000);
         System.out.println("The user press ENTER button");
-
     }
 
     @Then("The user is navigated to search results")
